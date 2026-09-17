@@ -7,7 +7,7 @@
 
  body {
     min-height: 100vh;
-    background: linear-gradient(45deg, #f59f0bea, #e11d47de);
+    background: linear-gradient(#F9A72B, #FA8732, #FF6F1A);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,12 +101,12 @@
 }
 
 .caixa-do-input:hover {
-    border-color: #3a88ed;
+    border-color: #FF6F1A;
     background: #fbfbfe;
 }
 
 .caixa-do-input:focus-within {
-    border-color: #5959BD;
+    border-color: #FF6F1A;
     background: #ffffff;
     box-shadow: 0 0 0 4px rgba(89, 89, 189, 0.10);
 }
@@ -157,8 +157,8 @@
     padding: 12px 18px;
     border: 1.5px solid #e2e8f0;
     border-radius: 14px;
-    background: #f8fafc;
-    color: #475569;
+    background: #f8fafc00;
+    color: #000000;
     font-size: 15px;
     font-weight: 500;
     transition: all 0.2s ease;
@@ -167,23 +167,23 @@
 .conteudo-opcao svg {
     width: 21px;
     height: 21px;
-    color: #64748b;
+    color: #FA8732;
 }
 
 .opcao:hover .conteudo-opcao {
-    border-color: #5959BD;
+    border-color: #FF6F1A;
     background: #fbfbfe;
 }
 
 .opcao input:checked + .conteudo-opcao {
-    border-color: #5959BD;
+    border-color: #FF6F1A;
     background: rgba(89, 89, 189, 0.08);
-    color: #5959BD;
+    color: #FA8732;
     box-shadow: 0 0 0 2px rgba(89, 89, 189, 0.08);
 }
 
 .opcao input:checked + .conteudo-opcao svg {
-    color: #5959BD;
+    color: #FF6F1A;
 }
 
 .lista-disciplinas {
@@ -211,7 +211,7 @@
     border: 1.5px solid #e2e8f0;
     border-radius: 14px;
     background: #f8fafc;
-    color: #475569;
+    color: #566947;
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
@@ -219,14 +219,14 @@
 }
 
 .lista-disciplinas .course-balloon:hover .balloon-content {
-    border-color: #5959BD;
-    background: #fbfbfe;
+    border-color: #FF6F1A;
+    background: #141463;
 }
 
 .lista-disciplinas .course-balloon input:checked + .balloon-content {
-    border-color: #5959BD;
+    border-color: #FF6F1A;
     background: rgba(89, 89, 189, 0.08);
-    color: #5959BD;
+    color: #FF6F1A;
     box-shadow: 0 0 0 2px rgba(89, 89, 189, 0.08);
 }
 
@@ -262,7 +262,7 @@
 
 .btn-primary {
     flex: 1;
-    background: rgb(89, 89, 189);
+    background: linear-gradient(45deg, #F59E0B, #E11D48);
     color: #ffffff;
     border: none;
     box-shadow: 0 4px 12px rgba(85, 58, 237, 0.25);
@@ -271,7 +271,7 @@
 .btn-primary:hover {
     transform: translateY(-1px);
     box-shadow: 0 6px 20px rgba(76, 58, 237, 0.35);
-    background: rgb(83, 170, 75);
+    background: linear-gradient(45deg, #f59f0bea, #e11d47de);
 }
 
 .btn-secondary {
